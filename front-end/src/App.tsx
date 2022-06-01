@@ -1,9 +1,9 @@
-import ListContacts from "./pages/ListContacts/ListContacts";
+import Router from "./routes/Router";
 
 export default function App() {
   return (
     <div>
-      <ListContacts />
+      <Router />
     </div>
   );
 }
